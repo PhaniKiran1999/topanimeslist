@@ -4,7 +4,7 @@
     "restrictions" : "only GET requests are allowed. ",
     "schema":"https://topanimeslist.herokuapp.com/{subtype}?size={size}",
     "subtype": {
-        "Anime":["airing", "upcoming", "tv", "movie", "ova", "special"]
+        "Anime":["airing", "upcoming", "tv", "movies", "ova", "special"]
     },
     "size (optional)":"Indicates the size of output JSON Array",
     "limitations of this api":"query parameter 'size' can have value between [0,50] else it returns null",
